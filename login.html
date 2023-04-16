@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    
+   
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="out">
+            <form id="form1" onsubmit="signup(event)"><br><br>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="user">User name:</label>
+                <input type="text" id="user" name="user"><br><br>
+                <label for="no">Phone no.:</label>
+                <input type="tel" id="no" name="no"><br><br>
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass"><br><br>
+
+                <input type="submit" value="Submit" id="submit"><br>
+                <p id="logswitch" ><i>Already a user? LOG IN</i></p>
+
+            </form>
+
+            <form id="login" onsubmit="login(event)"><br><br>
+                <label for="User1">Email:</label>
+                <input type="text" id="User1" name="User1"><br><br>
+
+                <label for="pass1">Password:</label>
+                <input type="password" id="pass1" name="pass1"><br><br>
+
+                <input type="submit" value="Submit" id="submit1"><br>
+                <p id="signup" ><i>Create New Account</i></p>
+
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+<script src="script.js" type="module">
+      
+  </script>
+  <script src="script1.js" type="module"></script>
+
+</html>

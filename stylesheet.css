@@ -1,0 +1,80 @@
+*{
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    background: url("R.jpg");
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity:;
+    margin: 0px ;
+}
+.out{
+
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(85, 86, 86);
+    border-radius: 20px;
+    opacity: .9;
+    padding: 20px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 24px;
+    box-shadow: inset;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 6px 6px 10px -1px rgb(0, 0, 0),
+        -6px -6px 20px -1px rgba(144, 141, 141, 0.7);
+
+    
+}
+#login{
+    display:none;
+    position: absolute;
+}
+#submit{
+    align-items: center;
+    height: 30px;
+    width:350px;
+    background-color: red;
+    opacity: 0.5;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 22px;
+   
+}
+#submit:hover{
+    scale: 1.2;
+    opacity: 1.5;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+}
+#submit1{
+    height: 30px;
+    width:350px;
+    background-color: red;
+    opacity: 0.5;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 22px;
+   
+}
+#submit1:hover{
+    scale: 1.2;
+    opacity: 1.5;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+}
+ #signup{
+    font-size: 14px;
+ }
+ #logswitch{
+    font-size: 14px;
+ }
