@@ -10,7 +10,7 @@ var order = JSON.parse(localStorage.getItem('order'));
 
     order.items.forEach(function(item) {
       var itemElement = document.createElement('div');
-      itemElement.innerHTML = item.name + ' - $' + item.price + ' - Quantity: ' + item.quantity;
+      itemElement.innerHTML = item.name + ' - Rp ' + item.price + ' - Quantity: ' + item.quantity;
 
       transactionItemsContainer.appendChild(itemElement);
     });

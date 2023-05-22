@@ -4,11 +4,11 @@
     <title>krishiconnect</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="assets/fonts/sb-bistro/sb-bistro.css" rel="stylesheet" type="text/css">
     <link href="assets/fonts/font-awesome/font-awesome.css" rel="stylesheet" type="text/css">
-
     <link rel="stylesheet" type="text/css" media="all" href="assets/packages/bootstrap/bootstrap.css">
     <link rel="stylesheet" type="text/css" media="all" href="assets/packages/o2system-ui/o2system-ui.css">
     <link rel="stylesheet" type="text/css" media="all" href="assets/packages/owl-carousel/owl-carousel.css">
@@ -64,32 +64,22 @@
                 </div>
             </div>
         </div>
-
-        <h1>Cart Page</h1>
-        <div>
-            <label for="buyer-name">Name:</label>
+    <div class="cart">
+        <h1 class="carttext">Cart Page</h1>
+        <div class="cartfield carttext">
+            <label class="carttext" for="buyer-name">Name:</label>
             <input type="text" id="buyer-name" required>
-          </div>
-        
-          <div>
+        </div>
+        <div class="cartfield carttext">
             <label for="buyer-email">Email:</label>
             <input type="email" id="buyer-email" required>
-          </div>
-
-  <div id="cart-items"></div>
-
-  <button onclick="emptyCart()">Empty Cart</button>
-
-  <div id="subtotal"></div>
-
-  <button onclick="checkout()">Checkout</button>
-                                      
-                    <div class="col">
-                        <a href="shop(1).html" class="btn btn-default">Continue Shopping</a>
-                    </div>
-                   
-                       
-        </section>
+        </div>
+        <div id="cart-items" class="carttext"></div>
+        <div id="subtotal" class="carttext"></div>
+        <div class="cartfield"><button class="cartbtn" onclick="emptyCart()">Empty Cart</button>
+        <button class="cartbtn" onclick="checkout()">Checkout</button>
+        <button onclick="window.location.href='shop(1).html'" class="cartbtn">Continue Shopping</a></button>
+        </div>
     </div>
     <footer>
         <div class="container">

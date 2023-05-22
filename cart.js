@@ -8,7 +8,7 @@ var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
 
     cartItems.forEach(function(item) {
       var itemElement = document.createElement('div');
-      itemElement.innerHTML = item.name + ' - $' + item.price + ' - Quantity: ' + item.quantity;
+      itemElement.innerHTML = item.name + ' - Rp ' + item.price + ' - Quantity: ' + item.quantity;
 
       
       var increaseQuantityButton = document.createElement('button');
@@ -28,7 +28,7 @@ var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
         
         cartItems.forEach(function(item) {
           var itemElement = document.createElement('div');
-          itemElement.innerHTML = item.name + ' - $' + item.price + ' - Quantity: ' + item.quantity;
+          itemElement.innerHTML = item.name + ' - Rp ' + item.price + ' - Quantity: ' + item.quantity;
   
           
           var increaseQuantityButton = document.createElement('button');
@@ -55,7 +55,7 @@ var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
   
         
         var subtotalElement = document.getElementById('subtotal');
-        subtotalElement.innerHTML = 'Subtotal: $' + subtotal.toFixed(2);
+        subtotalElement.innerHTML = 'Subtotal: Rp ' + subtotal.toFixed(2);
       }
   
       
